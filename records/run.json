@@ -1,0 +1,425 @@
+{
+  "run_id": "rag-wiki-001",
+  "timestamp": "2026-11-22T23:09:04+08:00",
+  "timezone": "Asia/Taipei",
+  "ingested_sources": [
+    {
+      "id": "S1",
+      "arxiv": "2005.11401v4",
+      "url": "https://arxiv.org/pdf/2005.11401v4",
+      "pages": 19,
+      "sha256": "23e3249e9a1e75418d82efecab0ea8c4d033b89c93742f63208d47ce01f21233",
+      "characters": 69338
+    },
+    {
+      "id": "S2",
+      "arxiv": "2004.04906v3",
+      "url": "https://arxiv.org/pdf/2004.04906v3",
+      "pages": 13,
+      "sha256": "3e67fc1a9977715acf722d85f0b7d124b03715e975f6310a4d6c12094190912f",
+      "characters": 56090
+    },
+    {
+      "id": "S3",
+      "arxiv": "2312.10997v5",
+      "url": "https://arxiv.org/pdf/2312.10997v5",
+      "pages": 21,
+      "sha256": "396a0fadeb4cd40f5c8ccc36b73a0815f6cb4d7f6bfa53b6c48c1f9aba7c7e02",
+      "characters": 110238
+    },
+    {
+      "id": "S4",
+      "arxiv": "2307.03172v3",
+      "url": "https://arxiv.org/pdf/2307.03172v3",
+      "pages": 18,
+      "sha256": "653b29619eae2ae4b361d7bdcdc06db4bedcb1b0eabe31814036beca8c1af0b1",
+      "characters": 65714
+    },
+    {
+      "id": "S5",
+      "arxiv": "2309.15217v2",
+      "url": "https://arxiv.org/pdf/2309.15217v2",
+      "pages": 8,
+      "sha256": "6c24762a3f277fd120ed1adf34b01420ecf92f18ff6d1b5435fa0a09cb804ecb",
+      "characters": 32056
+    }
+  ],
+  "retrieval_trials": [
+    {
+      "version": 0,
+      "description": "僅英文索引詞",
+      "hits": 3,
+      "total": 6,
+      "cases": [
+        {
+          "q": "RAG 是什麼？",
+          "expected": "K1",
+          "actual": "K1",
+          "passed": true
+        },
+        {
+          "q": "chunking 怎麼做？",
+          "expected": "K2",
+          "actual": "K2",
+          "passed": true
+        },
+        {
+          "q": "DPR 的用途？",
+          "expected": "K3",
+          "actual": "K3",
+          "passed": true
+        },
+        {
+          "q": "資料要如何切塊？",
+          "expected": "K2",
+          "actual": null,
+          "passed": false
+        },
+        {
+          "q": "為何長文本的中間可能被忽略？",
+          "expected": "K5",
+          "actual": null,
+          "passed": false
+        },
+        {
+          "q": "如何評估答案忠實度？",
+          "expected": "K6",
+          "actual": null,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "description": "加入中英別名",
+      "hits": 6,
+      "total": 6,
+      "cases": [
+        {
+          "q": "RAG 是什麼？",
+          "expected": "K1",
+          "actual": "K1",
+          "passed": true
+        },
+        {
+          "q": "chunking 怎麼做？",
+          "expected": "K2",
+          "actual": "K2",
+          "passed": true
+        },
+        {
+          "q": "DPR 的用途？",
+          "expected": "K3",
+          "actual": "K3",
+          "passed": true
+        },
+        {
+          "q": "資料要如何切塊？",
+          "expected": "K2",
+          "actual": "K2",
+          "passed": true
+        },
+        {
+          "q": "為何長文本的中間可能被忽略？",
+          "expected": "K5",
+          "actual": "K5",
+          "passed": true
+        },
+        {
+          "q": "如何評估答案忠實度？",
+          "expected": "K6",
+          "actual": "K6",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "S1 ingest",
+      "passed": true,
+      "detail": "固定版本 2005.11401v4，19 頁，擷取 69338 字元"
+    },
+    {
+      "name": "S2 ingest",
+      "passed": true,
+      "detail": "固定版本 2004.04906v3，13 頁，擷取 56090 字元"
+    },
+    {
+      "name": "S3 ingest",
+      "passed": true,
+      "detail": "固定版本 2312.10997v5，21 頁，擷取 110238 字元"
+    },
+    {
+      "name": "S4 ingest",
+      "passed": true,
+      "detail": "固定版本 2307.03172v3，18 頁，擷取 65714 字元"
+    },
+    {
+      "name": "S5 ingest",
+      "passed": true,
+      "detail": "固定版本 2309.15217v2，8 頁，擷取 32056 字元"
+    },
+    {
+      "name": "至少五篇來源",
+      "passed": true,
+      "detail": "5 篇"
+    },
+    {
+      "name": "教學頁數",
+      "passed": true,
+      "detail": "15 頁"
+    },
+    {
+      "name": "K1 來源與互連",
+      "passed": true,
+      "detail": "S1, S3"
+    },
+    {
+      "name": "K2 來源與互連",
+      "passed": true,
+      "detail": "S3"
+    },
+    {
+      "name": "K3 來源與互連",
+      "passed": true,
+      "detail": "S2, S3"
+    },
+    {
+      "name": "K4 來源與互連",
+      "passed": true,
+      "detail": "S1, S3"
+    },
+    {
+      "name": "K5 來源與互連",
+      "passed": true,
+      "detail": "S4"
+    },
+    {
+      "name": "K6 來源與互連",
+      "passed": true,
+      "detail": "S5, S3"
+    },
+    {
+      "name": "K7 來源與互連",
+      "passed": true,
+      "detail": "S1, S3"
+    },
+    {
+      "name": "P01 Wiki 對應",
+      "passed": true,
+      "detail": "K1"
+    },
+    {
+      "name": "P01 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S1, S3"
+    },
+    {
+      "name": "P02 Wiki 對應",
+      "passed": true,
+      "detail": "K1, K6"
+    },
+    {
+      "name": "P02 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S1, S5"
+    },
+    {
+      "name": "P03 Wiki 對應",
+      "passed": true,
+      "detail": "K1, K3, K4"
+    },
+    {
+      "name": "P03 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S1, S3"
+    },
+    {
+      "name": "P04 Wiki 對應",
+      "passed": true,
+      "detail": "K2, K3, K4"
+    },
+    {
+      "name": "P04 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S3"
+    },
+    {
+      "name": "P05 Wiki 對應",
+      "passed": true,
+      "detail": "K2"
+    },
+    {
+      "name": "P05 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S3"
+    },
+    {
+      "name": "P06 Wiki 對應",
+      "passed": true,
+      "detail": "K3"
+    },
+    {
+      "name": "P06 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S2, S3"
+    },
+    {
+      "name": "P07 Wiki 對應",
+      "passed": true,
+      "detail": "K4, K6"
+    },
+    {
+      "name": "P07 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S1, S5"
+    },
+    {
+      "name": "P08 Wiki 對應",
+      "passed": true,
+      "detail": "K3, K4, K6"
+    },
+    {
+      "name": "P08 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S3, S5"
+    },
+    {
+      "name": "P09 Wiki 對應",
+      "passed": true,
+      "detail": "K5"
+    },
+    {
+      "name": "P09 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S4"
+    },
+    {
+      "name": "P10 Wiki 對應",
+      "passed": true,
+      "detail": "K6"
+    },
+    {
+      "name": "P10 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S5"
+    },
+    {
+      "name": "P11 Wiki 對應",
+      "passed": true,
+      "detail": "K4, K6"
+    },
+    {
+      "name": "P11 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S5"
+    },
+    {
+      "name": "P12 Wiki 對應",
+      "passed": true,
+      "detail": "K7"
+    },
+    {
+      "name": "P12 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S1, S3"
+    },
+    {
+      "name": "P13 Wiki 對應",
+      "passed": true,
+      "detail": "K2, K3, K4, K6"
+    },
+    {
+      "name": "P13 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S3, S5"
+    },
+    {
+      "name": "P14 Wiki 對應",
+      "passed": true,
+      "detail": "K3, K4, K6"
+    },
+    {
+      "name": "P14 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S3, S5"
+    },
+    {
+      "name": "P15 Wiki 對應",
+      "passed": true,
+      "detail": "K1, K2, K3, K4, K5, K6, K7"
+    },
+    {
+      "name": "P15 來源可由 Wiki 取得",
+      "passed": true,
+      "detail": "S1, S2, S3, S4, S5"
+    },
+    {
+      "name": "五篇來源都有教學用途",
+      "passed": true,
+      "detail": "S1–S5 均被簡報引用"
+    },
+    {
+      "name": "修正後固定題組",
+      "passed": true,
+      "detail": "限六題煙霧測試，不代表一般檢索正確率"
+    }
+  ],
+  "manual_review": [
+    {
+      "claim": "RAG 結合外部檢索與生成",
+      "wiki": "K1",
+      "source": "S1 §2；S3 §II.A",
+      "verdict": "支持",
+      "note": "保留原始模型與常見應用架構的差別"
+    },
+    {
+      "claim": "DPR 用兩個編碼器與向量內積匹配",
+      "wiki": "K3",
+      "source": "S2 §3.1",
+      "verdict": "支持",
+      "note": "沒有把相似度解讀成真實性機率"
+    },
+    {
+      "claim": "沒有任務通用的固定切塊最佳值",
+      "wiki": "K2",
+      "source": "S3 §III.A.1",
+      "verdict": "教學歸納",
+      "note": "綜述討論取捨，本作業不提供未驗證的最佳數值；核對時將錯誤的 III.A.2 更正為 III.A.1"
+    },
+    {
+      "claim": "長文本中間位置可能較難被利用",
+      "wiki": "K5",
+      "source": "S4 Abstract、§2.3",
+      "verdict": "有條件支持",
+      "note": "限定受測模型與任務，沒有外推所有模型"
+    },
+    {
+      "claim": "品質需分開看忠實度與相關性",
+      "wiki": "K6",
+      "source": "S5 §3",
+      "verdict": "支持",
+      "note": "沒有把本作業檢查宣稱為 Ragas 分數"
+    },
+    {
+      "claim": "RAG 與微調能結合",
+      "wiki": "K7",
+      "source": "S1 §2；S3 §II.C",
+      "verdict": "支持",
+      "note": "避免寫成 RAG 永遠不需訓練"
+    },
+    {
+      "claim": "交換生週一截止",
+      "wiki": "教學案例",
+      "source": "自編 D2",
+      "verdict": "虛構示例",
+      "note": "頁面明確標示，與實際課程無關"
+    }
+  ],
+  "limitations": [
+    "人工內容核對由同一製作流程完成，沒有獨立第二模型審查。",
+    "固定小題組用於發現索引缺口，沒有測量泛化效能。",
+    "沒有呼叫線上 LLM、執行 DPR 或 Ragas 套件。"
+  ]
+}

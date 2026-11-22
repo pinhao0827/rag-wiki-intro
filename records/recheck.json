@@ -1,0 +1,548 @@
+{
+  "timestamp": "2026-11-22T15:11:15.626181+00:00",
+  "checks": [
+    {
+      "name": "at least five sources",
+      "passed": true
+    },
+    {
+      "name": "8-15 slides",
+      "passed": true
+    },
+    {
+      "name": "K1 valid references",
+      "passed": true
+    },
+    {
+      "name": "K2 valid references",
+      "passed": true
+    },
+    {
+      "name": "K3 valid references",
+      "passed": true
+    },
+    {
+      "name": "K4 valid references",
+      "passed": true
+    },
+    {
+      "name": "K5 valid references",
+      "passed": true
+    },
+    {
+      "name": "K6 valid references",
+      "passed": true
+    },
+    {
+      "name": "K7 valid references",
+      "passed": true
+    },
+    {
+      "name": "P01 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P01 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P02 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P02 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P03 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P03 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P04 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P04 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P05 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P05 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P06 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P06 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P07 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P07 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P08 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P08 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P09 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P09 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P10 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P10 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P11 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P11 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P12 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P12 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P13 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P13 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P14 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P14 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "P15 valid wiki mapping",
+      "passed": true
+    },
+    {
+      "name": "P15 sources available in wiki",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md concepts/K1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md concepts/K2.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md concepts/K3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md concepts/K4.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md concepts/K5.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md concepts/K6.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md concepts/K7.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md sources/S1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md sources/S2.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md sources/S3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md sources/S4.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\index.md sources/S5.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K1.md ../sources/S1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K1.md ../sources/S3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K1.md K2.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K1.md K3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K1.md K4.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K1.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K2.md ../sources/S3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K2.md K1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K2.md K3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K2.md K5.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K2.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K3.md ../sources/S2.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K3.md ../sources/S3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K3.md K2.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K3.md K4.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K3.md K6.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K3.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K4.md ../sources/S1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K4.md ../sources/S3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K4.md K1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K4.md K3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K4.md K6.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K4.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K5.md ../sources/S4.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K5.md K2.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K5.md K3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K5.md K6.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K5.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K6.md ../sources/S5.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K6.md ../sources/S3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K6.md K3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K6.md K4.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K6.md K5.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K6.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K7.md ../sources/S1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K7.md ../sources/S3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K7.md K1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K7.md K4.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\concepts\\K7.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S1.md ../concepts/K1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S1.md ../concepts/K4.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S1.md ../concepts/K7.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S1.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S2.md ../concepts/K3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S2.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S3.md ../concepts/K1.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S3.md ../concepts/K2.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S3.md ../concepts/K3.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S3.md ../concepts/K4.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S3.md ../concepts/K6.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S3.md ../concepts/K7.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S3.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S4.md ../concepts/K5.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S4.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S5.md ../concepts/K6.md",
+      "passed": true
+    },
+    {
+      "name": "wiki\\sources\\S5.md ../index.md",
+      "passed": true
+    },
+    {
+      "name": "v1 fixed query set",
+      "passed": true
+    },
+    {
+      "name": "embedded title matches content",
+      "passed": true
+    },
+    {
+      "name": "embedded sources matches content",
+      "passed": true
+    },
+    {
+      "name": "embedded concepts matches content",
+      "passed": true
+    },
+    {
+      "name": "embedded queries matches content",
+      "passed": true
+    },
+    {
+      "name": "embedded slides matches content",
+      "passed": true
+    }
+  ],
+  "trials": [
+    {
+      "version": 0,
+      "hits": 3,
+      "total": 6,
+      "cases": [
+        {
+          "q": "RAG 是什麼？",
+          "expected": "K1",
+          "actual": "K1",
+          "passed": true
+        },
+        {
+          "q": "chunking 怎麼做？",
+          "expected": "K2",
+          "actual": "K2",
+          "passed": true
+        },
+        {
+          "q": "DPR 的用途？",
+          "expected": "K3",
+          "actual": "K3",
+          "passed": true
+        },
+        {
+          "q": "資料要如何切塊？",
+          "expected": "K2",
+          "actual": null,
+          "passed": false
+        },
+        {
+          "q": "為何長文本的中間可能被忽略？",
+          "expected": "K5",
+          "actual": null,
+          "passed": false
+        },
+        {
+          "q": "如何評估答案忠實度？",
+          "expected": "K6",
+          "actual": null,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "hits": 6,
+      "total": 6,
+      "cases": [
+        {
+          "q": "RAG 是什麼？",
+          "expected": "K1",
+          "actual": "K1",
+          "passed": true
+        },
+        {
+          "q": "chunking 怎麼做？",
+          "expected": "K2",
+          "actual": "K2",
+          "passed": true
+        },
+        {
+          "q": "DPR 的用途？",
+          "expected": "K3",
+          "actual": "K3",
+          "passed": true
+        },
+        {
+          "q": "資料要如何切塊？",
+          "expected": "K2",
+          "actual": "K2",
+          "passed": true
+        },
+        {
+          "q": "為何長文本的中間可能被忽略？",
+          "expected": "K5",
+          "actual": "K5",
+          "passed": true
+        },
+        {
+          "q": "如何評估答案忠實度？",
+          "expected": "K6",
+          "actual": "K6",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "passed": 113,
+  "total": 113,
+  "note": "Recheck does not re-download raw source PDFs or replace the original run record."
+}
