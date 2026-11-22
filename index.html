@@ -29,6 +29,17 @@ table{background:var(--paper);border-radius:16px;overflow:hidden;box-shadow:0 8p
 select{background:#fffdf8;border-radius:10px;border-color:#cfc6b8;padding:.45rem .75rem}
 @media(max-width:750px){body{font-size:16px}.top{position:relative}.container{padding-top:1.4rem}.slide{padding:1.6rem;min-height:650px;border-radius:20px}.wiki-grid{grid-template-columns:1fr}.wiki-nav,.search{position:static}.article{padding:1.35rem}.stats{grid-template-columns:1fr}.bigword{font-size:2.35rem}}
 }
+/* 中性暖灰版：避免綠色大面積背景，保留米白、陶土與藍灰的層次 */
+@media screen{
+:root{--accent:#8b5141;--soft-green:#e8e2da;--soft-blue:#e5ebef}
+body{background:radial-gradient(circle at 8% 0,#e9e3da 0,transparent 25rem),var(--bg)}
+.top button:hover,.top button:focus-visible{background:#e8e2da;color:#8b5141}
+.slide.cover{background:radial-gradient(circle at 78% 25%,rgba(185,96,63,.22),transparent 12rem),linear-gradient(135deg,#e8e2da 0%,#fffaf0 58%,#f3dfd3 100%)}
+.wiki-nav{background:#ebe6df;border-color:rgba(139,81,65,.15)}
+.article:nth-child(3n){background:#f3eee7}
+th{background:#eee9e1}
+.workflow .gate{fill:#e8e2da}
+}
 </style></head><body>
 <header class="top"><div class="brand">RAG 學習筆記</div><nav aria-label="作業內容"><button data-view="deck" aria-selected="true">教學簡報</button><button data-view="wiki" aria-selected="false">主題 Wiki</button><button data-view="workflow" aria-selected="false">我怎麼做</button><button data-view="report" aria-selected="false">實作紀錄</button></nav></header>
 <main class="container">
