@@ -27,6 +27,11 @@
 
 - 沒有對每個外部 arXiv 連結做永久可用性保證；原文已實際下載並記錄固定版本。
 - 沒有驗證所有瀏覽器、所有螢幕或實體手機。手機檢查使用 Chrome 的 390px viewport。
-- 沒有產出影片完整逐字稿，實際閱讀依據與轉錄嘗試另見交付的「課程要求與閱讀紀錄.txt」。
-- 沒有上傳、正式繳交 COOL，也沒有建立公開託管網址。HTML 是可下載、可離線開啟的成果。
+- 後續已完成整片音訊的自動辨識，詳見 records/lecture-audit.json；自動辨識未逐字人工校對。
+- 尚未正式繳交 COOL。後續依使用者同意公開至 GitHub 並啟用 Pages，線上網址另見 records/publication.json。
 - 最終預覽已保存為交付資料夾中的 RAG作業預覽.jpg。
+
+
+## 公開專案補查
+
+從公開 GitHub 重新 clone 專案，31 個原始檔案完整；在下載副本執行 scripts/check.py 仍為 113/113。其 recheck.json 時間戳因重新執行而改變，原始 run.json 保留不變。

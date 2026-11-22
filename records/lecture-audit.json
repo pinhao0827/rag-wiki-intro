@@ -1,0 +1,53 @@
+{
+  "status": "full_input_processed",
+  "reviewed_at": "2026-11-23T00:14:34+08:00",
+  "video_url": "https://www.youtube.com/watch?v=pEmuTl9vTf8",
+  "audio_seconds": 10404.5830625,
+  "speech_seconds_detected": 7664.624,
+  "segments": 1268,
+  "last_segment_end": 10403.56,
+  "transcript_characters": 36416,
+  "model": {
+    "repository": "mobiuslabsgmbh/faster-whisper-large-v3-turbo",
+    "revision": "0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf"
+  },
+  "engine": "faster-whisper 1.2.1 / CTranslate2 4.9.1 / PyAV 16.0.1",
+  "device": "CUDA float16",
+  "elapsed_seconds": 196,
+  "quality_note": "全片自動語音辨識已完成，未逐字人工校對。休息音樂與學生展示不作為本週要求的依據；專有名詞以教材核對。",
+  "initial_attempt": "初版 small 模型抽查 128 段時有 36 段出現英文詞過度重複，停止該版；改用 large-v3-turbo、移除英文詞清單提示並限制重複後重跑全片。",
+  "checks": [
+    {
+      "time": "00:09–00:11",
+      "seconds": 540,
+      "point": "先有知識庫，再實際用它產生簡報；流程依自己的任務設計。",
+      "response": "五篇資料整理成 Wiki，十五頁簡報逐頁標示概念與來源。"
+    },
+    {
+      "time": "00:45–00:50",
+      "seconds": 2700,
+      "point": "先討論並確認需求，再建立規則與 Wiki。",
+      "response": "保留使用者確認主題、讀者、語言與來源規格的真實討論摘要。"
+    },
+    {
+      "time": "01:36–01:44",
+      "seconds": 5760,
+      "point": "大綱與逐頁稿分開，檢查關卡要有退回路線。",
+      "response": "保存逐頁稿與來源表，Graph 指定回到索引、來源卡、該頁稿或渲染。"
+    },
+    {
+      "time": "01:46、01:49–01:51",
+      "seconds": 6360,
+      "point": "主題可自選，說明特別考量，成果放 GitHub；不強制特定 Git 操作。",
+      "response": "公開完整專案與 Pages，補充初學者、中英檢索及教學案例的取捨。"
+    },
+    {
+      "time": "02:26–02:28",
+      "seconds": 8760,
+      "point": "助教建議把關鍵決定、實際問題與修改依據寫出來。",
+      "response": "保留 3/6 到 6/6 的實際題組結果與提前檢查的反思。"
+    }
+  ],
+  "scope_note": "02:28 起助教明確回顧第九週作業；其公開網址與規則檔提醒作補充參考，本週正式評分仍以 COOL 第十週說明為準。",
+  "privacy": "完整音訊與自動逐字稿保留於本機工作資料，不上傳 GitHub。此紀錄只公開方法、統計及概括核對結果。"
+}
