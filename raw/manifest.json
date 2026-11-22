@@ -1,0 +1,42 @@
+[
+  {
+    "id": "S1",
+    "arxiv": "2005.11401v4",
+    "url": "https://arxiv.org/pdf/2005.11401v4",
+    "pages": 19,
+    "sha256": "23e3249e9a1e75418d82efecab0ea8c4d033b89c93742f63208d47ce01f21233",
+    "characters": 69338
+  },
+  {
+    "id": "S2",
+    "arxiv": "2004.04906v3",
+    "url": "https://arxiv.org/pdf/2004.04906v3",
+    "pages": 13,
+    "sha256": "3e67fc1a9977715acf722d85f0b7d124b03715e975f6310a4d6c12094190912f",
+    "characters": 56090
+  },
+  {
+    "id": "S3",
+    "arxiv": "2312.10997v5",
+    "url": "https://arxiv.org/pdf/2312.10997v5",
+    "pages": 21,
+    "sha256": "396a0fadeb4cd40f5c8ccc36b73a0815f6cb4d7f6bfa53b6c48c1f9aba7c7e02",
+    "characters": 110238
+  },
+  {
+    "id": "S4",
+    "arxiv": "2307.03172v3",
+    "url": "https://arxiv.org/pdf/2307.03172v3",
+    "pages": 18,
+    "sha256": "653b29619eae2ae4b361d7bdcdc06db4bedcb1b0eabe31814036beca8c1af0b1",
+    "characters": 65714
+  },
+  {
+    "id": "S5",
+    "arxiv": "2309.15217v2",
+    "url": "https://arxiv.org/pdf/2309.15217v2",
+    "pages": 8,
+    "sha256": "6c24762a3f277fd120ed1adf34b01420ecf92f18ff6d1b5435fa0a09cb804ecb",
+    "characters": 32056
+  }
+]
